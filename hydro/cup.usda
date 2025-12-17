@@ -11,7 +11,7 @@ def Xform "root" (
     def Xform "Cup"
     {
         float3 xformOp:rotateXYZ = (0, -0, 0)
-        float3 xformOp:scale = (1, 1, 1.4098493)
+        float3 xformOp:scale = (0.03, 0.03, 0.0423)
         double3 xformOp:translate = (0, 0, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
 
